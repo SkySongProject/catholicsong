@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:layout_centerInParent="true"
+    android:layout_gravity="center"
+    android:layout_margin="10dp"
+    tools:context="com.codepath.android.lollipopexercise.activities.AboutActivity">
+
+
+   <TextView
+       android:id="@+id/tvAbout"
+       android:layout_width="348dp"
+       android:layout_height="wrap_content"
+       android:layout_centerVertical="true"
+       android:autoLink="all"
+       android:background="@color/cardview_shadow_end_color"
+       android:gravity="center_vertical"
+       android:text="test"
+       tools:layout_editor_absoluteX="8dp"
+       tools:layout_editor_absoluteY="0dp" />
+</RelativeLayout>

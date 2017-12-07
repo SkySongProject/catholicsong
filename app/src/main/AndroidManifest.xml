@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.codepath.android.lollipopexercise">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:fullBackupContent="true"
+        android:icon="@drawable/bible"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activities.CategoriesActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.CategoriesListActivity"
+            android:label="@string/title_activity_details"
+            android:parentActivityName=".activities.CategoriesActivity" />
+        <activity android:name=".activities.DetailsActivity" />
+        <activity android:name=".activities.PagerActivity" />
+        <activity android:name=".activities.LangActivity" />
+        <activity android:name=".activities.AboutActivity"></activity>
+    </application>
+
+</manifest>
